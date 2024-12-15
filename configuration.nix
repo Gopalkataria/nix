@@ -1,6 +1,7 @@
 # Gopal Kataria, simple nixos config
 # very minimal changes from default 
 
+
 { config, pkgs, ... }:
 
 {
@@ -116,7 +117,7 @@
 	]; 
   
   hardware.bluetooth.enable = true; # enables support for Bluetooth
-  hardware.bluetooth.powerOnBoot = true;
+  hardware.bluetooth.powerOnBoot = true; # enable bluetooth on boot 
 
   # Install firefox.
   programs.firefox.enable = true;
