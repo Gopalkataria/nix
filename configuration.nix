@@ -109,6 +109,8 @@
       vlc
       kdePackages.sddm-kcm
       kdePackages.filelight
+      wineWowPackages.stable
+	winetricks
     ];
    };
 
