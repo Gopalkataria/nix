@@ -110,9 +110,11 @@
       kdePackages.sddm-kcm
       kdePackages.filelight
       wineWowPackages.stable
-	winetricks
+      winetricks
+      google-chrome
     ];
    };
+
 
  # enable flakes 
     nix.settings.experimental-features = [ "nix-command" "flakes" ];
