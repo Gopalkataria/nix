@@ -113,8 +113,35 @@
       wineWowPackages.stable
       winetricks
       google-chrome
+    stow
+    dunst
+    swaybg
+    swaylock
+    swayidle
+    hyprshot
+    wofi
+    brightnessctl
+    waybar
+    networkmanager
+    blueman
+    playerctl
+
     ];
    };
+
+
+  # Enable Blueman for Bluetooth management
+  services.blueman.enable = true;
+
+  # Enable pamixer for audio control
+
+  # Enable playerctl for controlling media players
+
+  # Enable brightnessctl for adjusting brightness
+
+  # Enable Wofi as an application launcher
+
+  # Enable Hyprshot for taking screenshots
 
 	programs.hyprland.enable = true ; 
 	environment.sessionVariables.NIXOS_OZONE_WL = "1" ; 
