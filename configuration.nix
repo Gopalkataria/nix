@@ -101,6 +101,7 @@
   # installed apps list 
 	packages = with pkgs; [
       kdePackages.kate
+      kitty
       git
       vim
       vscode
@@ -115,6 +116,9 @@
     ];
    };
 
+	programs.hyprland.enable = true ; 
+	environment.sessionVariables.NIXOS_OZONE_WL = "1" ; 
+	
 
  # enable flakes 
     nix.settings.experimental-features = [ "nix-command" "flakes" ];
