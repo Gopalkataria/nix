@@ -125,7 +125,7 @@
     networkmanager
     blueman
     playerctl
-
+    xfce.thunar 
     ];
    };
 
