@@ -113,19 +113,7 @@
       wineWowPackages.stable
       winetricks
       google-chrome
-    stow
-    dunst
-    swaybg
-    swaylock
-    swayidle
-    hyprshot
-    wofi
-    brightnessctl
-    waybar
-    networkmanager
-    blueman
-    playerctl
-    xfce.thunar 
+    
     ];
    };
 
@@ -141,9 +129,17 @@
 
   # Enable Wofi as an application launcher
 
-  # Enable Hyprshot for taking screenshots
+	services.create_ap = {
+  enable = true;
+  settings = {
+    INTERNET_IFACE = "enp3s0f3u2";
+    WIFI_IFACE = "wlo1";
+    SSID = "Gopal Hotspot";
+    PASSPHRASE = "12345678";
+  };
+};
 
-	programs.hyprland.enable = true ; 
+  # Enable Hyprshot for taking screenshots
 	environment.sessionVariables.NIXOS_OZONE_WL = "1" ; 
 	
 
