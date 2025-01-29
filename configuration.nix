@@ -113,7 +113,7 @@
       wineWowPackages.stable
       winetricks
       google-chrome
-    
+    wineWowPackages.waylandFull
     ];
    };
 
