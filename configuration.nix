@@ -134,7 +134,7 @@
   settings = {
     INTERNET_IFACE = "enp3s0f3u2";
     WIFI_IFACE = "wlo1";
-    SSID = "Gopal Hotspot";
+    SSID = "GopaLAN";
     PASSPHRASE = "12345678";
   };
 };
